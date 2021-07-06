@@ -7,10 +7,29 @@ body {
   color: #5a5a5a;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+  word-break: break-word;
 }
 
 h1, h2{
   text-transform: uppercase;
+}
+
+h4{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.29px;
+}
+
+.horizontal-divider {
+  margin: 2rem 0;
+  border-top:1px solid #FFFFFF;
+}
+
+.vertical-divider {
+  margin: 0 2rem;
+  height:100%;
+  border-left:1px solid #FFFFFF;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -55,11 +74,6 @@ h1, h2{
   background: #FFFFFF;
   color:#7E1C33;
   border: solid 1px #FFFFFF;
-}
-
-.featurette-divider {
-  margin: 2rem 0;
-  border-top:1px solid #FFFFFF;
 }
 
 /* MARKETING CONTENT
@@ -123,6 +137,13 @@ h1, h2{
 footer{
   background: #7E1C33;
   color: #FFFFFF;
+  padding: 2rem;
+}
+
+footer p{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
