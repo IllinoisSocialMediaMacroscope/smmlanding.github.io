@@ -10,13 +10,15 @@ body {
   letter-spacing: 1px;
 }
 
+h1, h2{
+  text-transform: uppercase;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Header base class */
 .header {
-  margin-bottom: 4rem;
   background-color: #7E1C33;
   color: #FFFFFF;
 
@@ -24,42 +26,105 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .header-caption {
   position: relative;
-  top:10%;
-  bottom: 10%;
+  width: 80%;
+  top:20%;
+  bottom: 20%;
+}
+
+.header-caption *{
+  margin-bottom: 20px;
+}
+
+.header-caption h1{
+  font-size: 52px;
+}
+.header-caption p{
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.header-caption a{
+  float:right;
+  background: none;
+  border-radius: 5px;
+  border: solid 1px #FFFFFF;
+  font-size: 16px;
+}
+.header-caption a:hover,
+.header-caption a:focus,
+.header-caption a:active
+{
+  background: #FFFFFF;
+  color:#7E1C33;
+  border: solid 1px #FFFFFF;
+}
+
+.featurette-divider {
+  margin: 2rem 0;
+  border-top:1px solid #FFFFFF;
 }
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+.marketing > *{
+  padding: 5rem 8rem;
 }
+
+.marketing img{
+  margin-bottom:3rem;
+}
+
+.marketing h1{
+  font-size: 30px;
+  letter-spacing: 4.29px;
+  margin-bottom:3rem;
+}
+
 .marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  font-size: 21px;
+  letter-spacing: 1.97px;
+  margin-bottom:3rem;
 }
 
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+.marketing p {
+  font-size: 14.67px;
+  letter-spacing: 2px;
+  margin-bottom:3rem;
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
+.marketing .learn-more{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: underline;
 }
 
+#tools{
+  background: #CBE5F9;
+  color: #000B1C;
+  text-align: left;
+}
 
+#tools .learn-more{
+  color: #7E1C33;
+  float:right;
+}
+
+#hub{
+  background: #143C53;
+  color:#FFFFFF;
+  text-align: left;
+}
+
+#docker{
+  background: #975E88;
+  color:#FFFFFF;
+  text-align: left;
+}
+
+footer{
+  background: #7E1C33;
+  color: #FFFFFF;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
