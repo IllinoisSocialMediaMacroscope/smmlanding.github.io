@@ -16,9 +16,10 @@ h1, h2{
 
 h4{
   color: #FFF;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 2.29px;
+  text-transform: uppercase;
 }
 
 .horizontal-divider {
@@ -57,7 +58,7 @@ h4{
   font-size: 52px;
 }
 .header-caption p{
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 .header-caption a{
@@ -65,7 +66,7 @@ h4{
   background: none;
   border-radius: 5px;
   border: solid 1px #FFFFFF;
-  font-size: 16px;
+  font-size: 18px;
 }
 .header-caption a:hover,
 .header-caption a:focus,
@@ -99,16 +100,27 @@ h4{
 }
 
 .marketing p {
-  font-size: 14.67px;
+  font-size: 16px;
   letter-spacing: 2px;
   margin-bottom:3rem;
 }
 
 .marketing .learn-more{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 2px;
   text-decoration: underline;
+  margin-right:10px;
+}
+
+.marketing .inner-box{
+  margin-right:50px;
+}
+
+.marketing .highlighted-link{
+  padding: 0 5px;
+  color:#FFFFFF;
+  vertical-align: text-bottom;
 }
 
 #tools{
@@ -128,10 +140,25 @@ h4{
   text-align: left;
 }
 
+#hub .highlighted-link{
+  font-size: 18px;
+  background-color: #E39202;
+}
+#hub .normal-link{
+  color:#E39203;
+}
+
 #docker{
   background: #975E88;
   color:#FFFFFF;
   text-align: left;
+}
+#docker .highlighted-link{
+  font-size: 16px;
+  background-color: #F56044;
+}
+#docker .normal-link{
+  color:#F56044;
 }
 
 footer{
@@ -142,7 +169,7 @@ footer{
 
 footer p{
   color: #FFF;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
 }
 /* RESPONSIVE CSS
