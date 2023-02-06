@@ -60,6 +60,7 @@ h4{
 .header-caption p{
   font-size: 18px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .header-caption a{
   float:right;
