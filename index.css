@@ -50,6 +50,12 @@ h4{
   bottom: 20%;
 }
 
+.header-caption .helper-text {
+  text-transform: none; !important;
+  font-size: 16px; !important;
+  font-weight: 300; !important;
+}
+
 .header-caption *{
   margin-bottom: 20px;
 }
@@ -62,20 +68,25 @@ h4{
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.header-caption a{
+.header-caption .button-link{
   float:right;
   background: none;
   border-radius: 5px;
   border: solid 1px #FFFFFF;
   font-size: 18px;
 }
-.header-caption a:hover,
-.header-caption a:focus,
-.header-caption a:active
+.header-caption .button-link:hover,
+.header-caption .button-link:focus,
+.header-caption .button-link:active
 {
   background: #FFFFFF;
   color:#7E1C33;
   border: solid 1px #FFFFFF;
+}
+
+.header-caption .inline-link{
+  font-weight: 400;
+  color: inherit;
 }
 
 /* MARKETING CONTENT
@@ -107,7 +118,7 @@ h4{
 }
 
 .marketing .learn-more{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 2px;
   text-decoration: underline;
@@ -154,25 +165,25 @@ h4{
   color:#E39203;
 }
 
-#docker{
+#deployment{
   background: #975E88;
   color:#FFFFFF;
   text-align: left;
 }
-#docker .highlighted-link{
+#deployment .highlighted-link{
   font-size: 16px;
   background-color: #F56044;
 }
-#docker .normal-link{
+#deployment .normal-link{
   color:#F56044;
 }
 
-#github .highlighted-link{
+#opensource .highlighted-link{
   font-size: 16px;
-  background-color: #91B1CA;
+  background-color: #4d687c;
 }
-#github .normal-link{
-  color:#91B1CA;
+#opensource .normal-link{
+  color: #4d687c;
 }
 
 footer{

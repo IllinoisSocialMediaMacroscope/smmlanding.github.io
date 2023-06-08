@@ -33,7 +33,7 @@
               <a class="nav-link" href="https://www.ncsa.illinois.edu/expertise/software-applications/" target="_blank">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#github">GitHub</a>
+              <a class="nav-link" href="#opensource">Contribute</a>
             </li>
           </ul>
         </div>
@@ -51,10 +51,13 @@
               <div class="container header-caption">
                 <h1>THE SOCIAL MEDIA MACROSCOPE</h1>
                 <hr class="horizontal-divider">
-                <p>Making Social Media Data, Analytics, and Visualization Tools accessible to researchers and students of all levels of expertise.</p>
-                <p>Public accessible web tools coming soon...</p>
-<!--                <a class="btn btn-lg btn-primary" href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Dockerize+SMILE"-->
-<!--                   role="button" target="_blank">Get Started</a>-->
+                <p>Making Social Media Data, Analytics, and Visualization Tools accessible to researchers and students
+                  of all levels of expertise.</p>
+                <p class="helper-text">
+                  <a href="mailto:smm@lists.illinois.edu" target="_blank" class="inline-link">Contact us</a> to explore collaborative
+                  opportunities and join our mission of enhancing and extending the capabilities of the social media
+                  macroscope tools, leveraging their adaptability with cloud environments and on-premises resources.</p>
+                <a class="btn btn-lg btn-primary button-link" href="#tools" role="button">Get Started</a>
               </div>
           </div>
         </div>
@@ -66,20 +69,35 @@
 
       <div class="marketing">
         <div id="tools">
-          <h1>Social Media Analytical tools we offer</h1>
+          <h1>Discover the range of analytical tools we provide for social media</h1>
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-4">
               <div class="inner-box">
                 <img class="rounded-circle" src="images/smile-logo.png" alt="smile-logo" width="140" height="140">
                 <h2>SOCIAL MEDIA INTELLIGENCE AND LEARNING ENVIRONMENT (SMILE)</h2>
-                <p>One platform for social media data ingestion, and analysis. SMILE collects real time and historical
+                <p>One platform for social media data ingestion, analysis, and data sharing. SMILE collects real time and historical
                   social media data from Twitter and Reddit, performs sentiment analysis, phrase mining,
-                  entity recognition, machine learning classification, network analysis and so on.</p>
-<!--                <a class="learn-more" href="https://socialmediamacroscope.org/tools/smile" target="_blank" role="button">Learn More</a>-->
-                <a class="learn-more" role="button">Web App Coming Soon...</a>
+                  entity recognition, machine learning classification, network analysis and so on. You can share your
+                  computation result to <a href="https://clowder.smm.ncsa.illinois.edu/" target="_blank">Clowder</a> and sharing with your collaborators.
+                <br>At our playground, we provide a temporary space for your experimentation, where no data is stored beyond a day.</p>
+                <a class="learn-more" href="https://smile.smm.ncsa.illinois.edu" target="_blank" role="button">Explore the Playground</a>
               </div>
-            </div><!-- /.col-lg-6 -->
-            <div class="col-lg-6">
+            </div>
+            <div class="col-lg-4">
+              <div class="inner-box">
+                <img src="images/clowder-logo.png" alt="clowder-logo" width="140" height="140">
+                <h2>SMM Clowder</h2>
+                <p>Discover seamless data sharing and collaboration with SMILE's social media analytical tools. Our
+                  platform integrates with Clowder (SMM Clowder), a customizable data management framework used by
+                  renowned science gateways. With Clowder, you
+                  can easily share analysis outputs, visualize data, and manage access.
+                  <br>SMILE's user-friendly wizard allows you to effortlessly upload targeted analytics outputs to
+                  Clowder. You can also leverage Clowder's information extractor functionality for drawing quick insight
+                  of your data uploaded.</p>
+                <a class="learn-more" href="https://clowder.smm.ncsa.illinois.edu/" target="_blank" role="button">Try it out</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
               <div class="inner-box">
                 <img class="rounded-circle" src="images/bae-logo.png" alt="bae-logo" width="140" height="140">
                 <h2>BRAND ANALYTICS ENVIRONMENT (BAE)</h2>
@@ -88,36 +106,14 @@
                   You may find an organization’s perfect “bae” through this tool.
                 </p>
 <!--                <a class="learn-more" href="https://socialmediamacroscope.org/tools/bae" target="_blank" role="button">Learn More</a>-->
-                <a class="learn-more" role="button">Web App Coming Soon...</a>
+                <a class="learn-more" role="button">Coming Soon...</a>
               </div>
             </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->
         </div>
 
-<!--        <div id="hub">-->
-<!--          <h1>We host on science gateway</h1>-->
-<!--          <div class="row">-->
-<!--            <div class="col-xl-7 col-lg-7 col-md-7">-->
-<!--              <div class="inner-box">-->
-<!--                <h2>TRY out the tools by Visiting our-->
-<!--                  <a href="https://socialmediamacroscope.org" target="_blank" class="btn btn-default highlighted-link">Hub</a>.-->
-<!--                  <a href="https://socialmediamacroscope.org/register" target="_blank" class="btn btn-default highlighted-link">Registration</a>-->
-<!--                  is free with an educational/non-profit email account.</h2>-->
-<!--                <p>-->
-<!--                  Our web site is powered by the <a href="https://hubzero.org/" target="_blank" class="normal-link">HUBzero®</a> Platform for Scientific Collaboration originally-->
-<!--                  developed at <a href="https://purr.purdue.edu/" target="_blank" class="normal-link">Purdue University</a>. HUBzero was specifically designed to help a scientific community share resources and-->
-<!--                  work together with one another. Users can upload their own content&#45;&#45;including tutorials, courses,-->
-<!--                  publications, and animations&#45;&#45;and share them with the rest of the community.</p>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <div class="col-xl-5 col-lg-5 col-md-5">-->
-<!--              <img class="featurette-image img-fluid mx-auto" src="images/smmhub.png" alt="socialmediamacroscope.org">-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-
-        <div id="docker">
-          <h1>Spin up on your own machines</h1>
+        <div id="deployment">
+          <h1>Effortless On-Premises Deployment</h1>
           <div class="row">
             <div class="col-xl-5 col-lg-5 col-md-5">
               <img class="featurette-image img-fluid mx-auto" src="images/docker-logos.png" alt="docker">
@@ -125,37 +121,85 @@
             <div class="col-xl-7 col-lg-7 col-md-7">
               <div class="inner-box right">
               <p>
-                You can spin up the full stack of our apps on your own machine hassle free. We leverage
-                <a href="https://www.docker.com/" target="_blank" class="normal-link">Docker</a> to
-                create individual "containers" for each component; and allow user to configure and launch tools through
-                a few commands. Visit our confluence page for detailed instructions:</p>
-              <p><a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Dockerize+SMILE" target="_blank" class="btn btn-default highlighted-link">
-                How to run dockerized SMILE</a>
-              <a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Dockerize+BAE" target="_blank" class="btn btn-default highlighted-link">How to run dockerized BAE</a>
+                Experience hassle-free deployment of our full stack of apps right on your own machine with ease.
+                For deployment, SMILE leverages
+                <a href="https://kubernetes.io/" target="_blank" class="normal-link">Kubernetes</a>, utilizing
+                <a href="https://helm.sh/" target="_blank" class="normal-link">Helm charts</a> to define,
+                install, and manage applications seamlessly. This integration simplifies the deployment and
+                administration of complex applications through templating and version control. Each component of SMILE,
+                such as the SMILE server,
+                graphql data server, algorithms, and MinIO instance, is encapsulated as
+                <a href="https://www.docker.com/" target="_blank" class="normal-link">Docker</a> containers and
+                individually deployed within Kubernetes. This approach enables independent management of component
+                activation, scaling, and storage configuration without causing disruptions. Furthermore, the internal
+                networking system provided by Kubernetes enhances the overall security of the system.
+                <br>
+                For lightweight deployments where scalability is not a concern, SMILE also offers a Docker Compose
+                setup option. This alternative provides a simpler learning curve and requires fewer resources compared
+                to Kubernetes.
               </p>
-              <p><a href="https://hub.docker.com/orgs/socialmediamacroscope/repositories" target="_blank" class="btn btn-default highlighted-link">Our docker images</a>
-                are published on <a href="https://hub.docker.com/" target="_blank" class="normal-link">Docker Hub</a> and available to the public.</p>
+              <p>Please refer to the following documentations for more information:
+                <a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Deploying+SMILE+with+Kubernetes+and+Helm+Chart"
+                   target="_blank" class="btn btn-default highlighted-link">
+                  Deploy SMILE with Kubernetes and Helm Chart
+                </a>
+                <br>
+                <a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Dockerize+SMILE+with+Docker-Compose"
+                   target="_blank" class="btn btn-default highlighted-link">
+                  Deploy SMILE with Docker Compose</a>
+<!--                <a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Dockerize+BAE"-->
+<!--                   target="_blank" class="btn btn-default highlighted-link">-->
+<!--                  How to run dockerized BAE-->
+<!--                </a>-->
+              </p>
+              <p>Our docker images
+                are published on <a href="https://hub.docker.com/" target="_blank" class="normal-link">Docker Hub</a>
+                and available to the public. <a href="https://hub.docker.com/orgs/socialmediamacroscope/repositories"
+                                                target="_blank" class="btn btn-default highlighted-link">
+                  Check it out</a></p>
               </div>
               </div>
           </div>
         </div>
 
-        <div id="github">
-          <h1>Contribute to our opensource project</h1>
+        <div id="opensource">
+          <h1>Embracing Open Source</h1>
           <div class="row">
-            <div class="col-xl-7 col-lg-7 col-md-7">
+            <div class="col-xl-12 col-lg-12 col-md-12">
               <div class="inner-box">
               <p>Our project, built upon open-sourced libraries and algorithms, is fully open-sourced and appreciates
-                any kind of community contribution.
-                Visit <a href="https://github.com/IllinoisSocialMediaMacroscope" target="_blank" class="btn btn-default highlighted-link">our project </a> on GitHub.
-                You are welcome to <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo" target="_blank" class="normal-link">fork</a> our repositories,
-                <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue" target="_blank" class="normal-link">open issues</a> and
-                <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" target="_blank" class="normal-link">create pull requests</a> to any of the public repository.</p>
+                any kind of community contribution. Visit repositories for <a href="https://github.com/ncsa/standalone-smm-smile"
+                         target="_blank" class="btn btn-default highlighted-link">SMILE</a> and
+                <a href="https://github.com/ncsa/standalone-smm-analytics" target="_blank"
+                   class="btn btn-default highlighted-link">Analytics Algorithms</a> on GitHub.
+                You are welcome to <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo"
+                                      target="_blank" class="normal-link">fork</a> our repositories,
+                <a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue"
+                   target="_blank" class="normal-link">open issues</a> and
+                <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"
+                   target="_blank" class="normal-link">create pull requests</a> to any of the public repository.
+              </p>
+              <p>
+                Cite our work below. Your citation will help us continue to provide and improve this platform:
+                <br>
+                <a href="https://ieeexplore.ieee.org/document/9041717" target="_blank" class="normal-link">
+                  Wang, C., Marini, L., Chin, C. L., Vance, N., Donelson, C., Meunier, P., & Yun, J. T.(2019, September).
+                  Social Media Intelligence and Learning Environment: an Open Source Framework for Social Media Data
+                  Collection, Analysis and Curation. In 2019 15th International Conference on eScience (eScience)
+                  (pp. 252-261). IEEE.</a>
+                <br>
+                <br>
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167739X19304443" target="_blank" class="normal-link">
+                Yun, J. T., Vance, N., Wang, C., Marini, L., Troy, J., Donelson, C., Chin, C. L., Henderson, M. D.
+                (2019).The Social Media Macroscope: A science gateway for research using social media data. Future
+                Generation Computer Systems. doi:10.1016/j.future.2019.10.029
+                </a>
+              </p>
               </div>
-              </div>
-            <div class="col-xl-5 col-lg-5 col-md-5">
-              <img class="featurette-image img-fluid mx-auto" src="images/github-project.png" alt="github project">
             </div>
+<!--            <div class="col-xl-5 col-lg-5 col-md-5">-->
+<!--              <img class="featurette-image img-fluid mx-auto" src="images/github-project.png" alt="github project">-->
+<!--            </div>-->
           </div>
         </div>
 
@@ -164,7 +208,7 @@
     <!-- FOOTER -->
     <footer>
       <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-3">
+        <div class="col-xl-5 col-lg-5 col-md-5">
           <div class="footer-left">
             <div class="row">
               <div class="col-xl-3 col-lg-3 col-md-3">
@@ -172,39 +216,36 @@
               </div>
               <div class="col-xl-9 col-lg-9 col-md-9">
                 <h4>Social Media Macroscope</h4>
-                <p>&#169;Copyright</p>
+                <p>&#169;2023 National Center for Supercomputing Applications, University of Illinois at
+                  Urbana-Champaign, All rights reserved</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="col-xl-4 col-lg-4 col-md-4">
           <div class="footer-left">
             <h4>Quick Links</h4>
             <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-4">
-<!--                <li><a href="https://socialmediamacroscope.org" target="_blank">Visit Our Hub</a></li>-->
-                <li><a href="#docker">Try Standalone version</a></li>
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <li><a href="https://smile.smm.ncsa.illnois.edu" target="_blank">SMILE Playground</a></li>
+                <li><a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/SMM+Deployment+Guide">Deployment Guide</a></li>
                 <li><a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Home" target="_blank">Documentations</a></li>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-4">
-                <li><a href="https://www.ideals.illinois.edu/handle/2142/99742" target="_blank">Publications</a></li>
-                <li><a href="https://github.com/IllinoisSocialMediaMacroscope" target="_blank">Code Repository</a></li>
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <li><a href="https://ieeexplore.ieee.org/document/9041717" target="_blank">Publications</a></li>
+                <li><a href="#opensource" target="_blank">Code Repositories</a></li>
+                <li><a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Social+Media+Macroscope+FAQs" target="_blank">FAQs</a></li>
               </div>
-                <div class="col-xl-4 col-lg-4 col-md-4">
-                  <li><a href="https://opensource.ncsa.illinois.edu/confluence/display/SMM/Social+Media+Macroscope+FAQs" target="_blank">FAQs</a></li>
-                </div>
-              </div>
+            </div>
           </div>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-3">
           <div class="footer-left">
             <h4>Contact Us</h4>
-<!--            <li><a href="https://socialmediamacroscope.org/feedback/report_problems" target="_blank">Submit Support Tickets</a></li>-->
             <li><a href="mailto:smm@lists.illinois.edu" target="_blank">Contact Us</a></li>
           </div>
         </div>
       </div>
-
     </footer>
   </body>
 </html>
